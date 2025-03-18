@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #7c8ad4,#b684eb, #bb4cc1);
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #070707;
+    margin-top: 10%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;}
+/* }    
+
+.todolists{
+    display: flex;
+    justify-content:flex-start;
+    align-items: start;
+    flex-direction: column;
+
+} */
+.todolists li{
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    /* background-color: #070707; */
+    color: rgb(13, 13, 13);
+    font-size: 1.2rem;
+    padding: 0 10px;
+    margin-top: 10px;
+    list-style:decimal;
+}
+.todolists li:hover{
+    color: #ff9900;
+}
+input
+{
+    width: 450px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 5 15px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    margin-top: 25px;
+    background-color: #070707;
+    color: white;
+    margin: 5px 5px ;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #454545;
+}
